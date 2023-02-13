@@ -61,6 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               $_SESSION["loggedin"] = true;
               $_SESSION["id"] = $id;
               $_SESSION["aadhar"] = $aadhar;
+              $_SESSION["password"] = $hashed_password;
 
               // Redirect user to customer dashboard
               header("location: /final1/site/customer-dashboard/public/index.php");

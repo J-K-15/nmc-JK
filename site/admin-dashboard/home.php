@@ -50,7 +50,9 @@
                                     <div class="card-body text-white">
                                         <span class="float-right summary_icon"> <i class="fa fa-home "></i></span>
                                         <h4><b>
-                                            <?php echo $conn->query("SELECT * FROM houses")->num_rows ?>
+                                            <?php
+                                            ?>
+                                            <?php echo $conn->query("SELECT count(distinct(market_name)) FROM demand_1")->num_rows ?>
                                         </b></h4>
                                         <p><b>Total Markets</b></p>
                                     </div>

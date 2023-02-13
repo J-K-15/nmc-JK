@@ -10,17 +10,13 @@ else
 {
   if($_SESSION["loggedin"]== true)
   {
-
+      
   }
   else
   {
     header('Location:http://localhost/final1/site/account/login/index.php');
   }
 }
-
-
-
-
 ?>
 <!DOCTYPE html>
 <html x-data="data()" lang="en">
@@ -218,7 +214,10 @@ else
                 <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
                   ग्राहकाचे नाव
                 </p>
-                <!-- CUSTOMER NAME -->
+                <?php
+                error_reporting(0);
+                 echo $_SESSION['owner_name'];
+                 ?>
                 <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                 
                 </p>
@@ -236,7 +235,10 @@ else
                   एकूण भाडे
                 </p>
                 <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
-                  &#8377 9,077
+                  &#8377 <?php
+                  error_reporting(0);
+                  echo $_SESSION['total'];
+                  ?>
                 </p>
               </div>
             </div>
@@ -252,7 +254,10 @@ else
                   उर्वरित रक्कम
                 </p>
                 <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
-                  &#8377 7376
+                  &#8377 <?php
+                  error_reporting(0);
+                  echo $_SESSION['bakaya_rent'];
+                  ?>
                 </p>
               </div>
             </div>
@@ -268,7 +273,11 @@ else
                   देय रक्कम
                 </p>
                 <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
-                  &#8377 1701
+                  &#8377 <?php
+                  error_reporting(0);
+                  $paid = $_SESSION['total']-$_SESSION['bakaya_rent'];
+                  echo $paid;
+                  ?>
                 </p>
               </div>
             </div>
@@ -438,3 +447,20 @@ else
 </body>
 
 </html>
+<?php
+$aadhar = $_SESSION["aadhar"];
+$query ="SELECT * FROM demand WHERE aadhar='$aadhar'"; //aadhar is table column name
+$is_query_run=mysqli_query($link,$query);
+if($is_query_run)
+{
+ while ($query_executed = mysqli_fetch_assoc($is_query_run))
+  {
+      // these four line is for four column
+      $_SESSION['owner_name'] = $query_executed['owner_name'];
+      $_SESSION['total'] = $query_executed['total'];
+      $_SESSION['bakaya_rent'] = $query_executed['bakaya_rent'];    
+  }
+}
+
+
+?>

@@ -1,4 +1,5 @@
 <?php
+
 session_start();
  /* Attempt to connect to MySQL database */
 $link = new mysqli('localhost','root', '', 'final');
@@ -519,9 +520,12 @@ else
               class="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800"
             >
               <p class="text-sm text-gray-600 dark:text-gray-400">
-                9
-आसिनगर झोन
-कमाल चौक बाजार
+                <?php 
+                error_reporting(0);
+                echo $_SESSION['zone_no']." ";
+                echo $_SESSION['zone_name']." ". $_SESSION['market_name'];
+                ?>
+
               </p>
             </div>
 
@@ -562,7 +566,10 @@ else
                   <p
                     class="text-lg font-semibold text-gray-700 dark:text-gray-200"
                   >
-                  अ. जागा क्र. 5 (अ)
+                  <?php
+                  error_reporting(0);
+                  echo  $_SESSION['shop_id'];
+                  ?>
                   </p>
                 </div>
               </div>
@@ -590,7 +597,10 @@ else
                   <p
                     class="text-lg font-semibold text-gray-700 dark:text-gray-200"
                   >
-                  100 sq.ft
+                  <?php 
+                  error_reporting(0);
+                  echo  $_SESSION['area_sqft'];
+                  ?> sq.ft
                     
                   </p>
                 </div>
@@ -617,7 +627,10 @@ else
                   <p
                     class="text-lg font-semibold text-gray-700 dark:text-gray-200"
                   >
-                  अस्थाई जागा
+                  <?php 
+                  error_reporting(0);
+                  echo  $_SESSION['shop_type'];
+                  ?>
                   </p>
                 </div>
               </div>
@@ -642,10 +655,11 @@ else
                   >
                   कराराचा कालावधी
                   </p>
-                  <p
-                    class="text-lg font-semibold text-gray-700 dark:text-gray-200"
-                  >
-                    11 महिने
+                  <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                  <?php 
+                  error_reporting(0);
+                  echo  $_SESSION['duration'];
+                  ?>
                   </p>
                 </div>
               </div>
@@ -691,3 +705,25 @@ else
     </div>
   </body>
 </html>
+<?php
+$aadhar = $_SESSION["aadhar"];
+$query ="SELECT * FROM demand WHERE aadhar='$aadhar'"; //aadhar is table column name
+$is_query_run=mysqli_query($link,$query);
+if($is_query_run)
+{ while ($query_executed = mysqli_fetch_assoc($is_query_run))
+  {
+      // these four line is for four column
+      $_SESSION['zone_no'] = $query_executed['zone_no'];
+      $_SESSION['zone_name'] = $query_executed['zone_name'];
+      $_SESSION['market_name'] = $query_executed['market_name'];
+      $_SESSION['shop_id'] = $query_executed['shop_id'];
+      $_SESSION['area_sqft'] = $query_executed['area_sqft'];
+      $_SESSION['shop_type'] = $query_executed['shop_type'];
+      $_SESSION['duration'] = $query_executed['duration'];
+
+     
+      
+  }
+}
+
+?>
