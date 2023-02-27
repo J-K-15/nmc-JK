@@ -50,9 +50,7 @@
                                     <div class="card-body text-white">
                                         <span class="float-right summary_icon"> <i class="fa fa-home "></i></span>
                                         <h4><b>
-                                            <?php
-                                            ?>
-                                            <?php echo $conn->query("SELECT count(distinct(market_name)) FROM demand_1")->num_rows ?>
+                                            <?php echo $conn->query("SELECT  distinct market_name FROM demand_1")->num_rows ?>
                                         </b></h4>
                                         <p><b>Total Markets</b></p>
                                     </div>
@@ -72,7 +70,7 @@
                                     <div class="card-body text-white">
                                         <span class="float-right summary_icon"> <i class="fa fa-user-friends "></i></span>
                                         <h4><b>
-                                            <?php echo $conn->query("SELECT * FROM tenants where status = 0 ")->num_rows ?>
+                                            <?php echo $conn->query("SELECT distinct owner_name FROM demand_1 ")->num_rows ?>
                                         </b></h4>
                                         <p><b>Total Tenants</b></p>
                                     </div>

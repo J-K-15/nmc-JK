@@ -91,8 +91,18 @@
 										</td>
 										<td class="text-right">
 											<p> <b><?php 
+											//if initially bakaya_rent = 0 --> subtract the payment amount from total else from bakaya_rent
+											if($row['bakaya_rent']==0)
+											{
+												$outstanding = $row['total']-$row['amount'];
+											}
+											else
+											{
+												$outstanding = $row['bakaya_rent']-$row['amount'];
+ 											}
+											echo $outstanding;
 											
-											echo $row['total']-$row['amount'] ?></b></p>
+											 ?></b></p>
 										</td>
 										<!-- <td class="">
 											<p><b><?php// echo  $row['$date_created'] ?></b></p>
@@ -176,3 +186,11 @@
 		})
 	}
 </script>
+<?php
+// $insert = "INSERT INTO demand (bakaya_rent) VALUES ('$outstanding')";
+// if (mysqli_query($conn, $insert)) {
+// 	echo "Record inserted successfully";
+// } else {
+// 	echo "Error inserting record: " . mysqli_error($conn);
+// }
+?>

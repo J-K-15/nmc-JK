@@ -78,24 +78,24 @@
 							<tbody>
 								<?php
 								$i = 1;
-								$house = $conn->query("SELECT h.*,c.name as cname FROM houses h inner join categories c on c.id = h.category_id order by id asc");
+								$house = $conn->query("SELECT zone_name, market_name, COUNT(*) as shop_count FROM demand_1 GROUP BY market_name");
 								while ($row = $house->fetch_assoc()) :
 								?>
 									<tr>
 										<td class="text-center"><?php echo $i++ ?></td>
 										<td class="">
-											<p>House #: <b><?php echo $row['house_no'] ?></b></p>
-											<!-- <p><small>House Type: <b><?php echo $row['cname'] ?></b></small></p>
-										<p><small>Description: <b><?php echo $row['description'] ?></b></small></p>
-										<p><small>Price: <b><?php echo number_format($row['price'], 2) ?></b></small></p> -->
+											<p><b><?php echo $row['zone_name'] ?></b></p>
+		                                 
 										</td>
-										<td class=""> <p>zone: <b><?php echo $row['house_no'] ?></b></p></td>
-										<td class=""> <p>narket <b><?php echo $row['house_no'] ?></b></p></td>
-										<td class=""> <p>shop <b><?php echo $row['house_no'] ?></b></p></td>
+										<td class=""> <p>Market: <b><?php echo $row['market_name'] ?></b></p></td>
+										
+									<td class=""> <p>no of shops <b><?php echo $row['shop_count'] ?></b></p></td>
+										<td class=""> <p><b><?php echo $row['zone_name'] ?></b></p></td>
+
 										<!-- <td class=""> <p>House #: <b><?php echo $row['house_no'] ?></b></p></td> -->
 										<td class="text-center">
-											<!-- <button class="btn btn-sm btn-primary edit_house" type="button" data-id="<?php echo $row['id'] ?>" data-house_no="<?php echo $row['house_no'] ?>" data-description="<?php echo $row['description'] ?>" data-category_id="<?php echo $row['category_id'] ?>" data-price="<?php echo $row['price'] ?>">Edit</button> -->
-											<button class="btn btn-sm btn-danger delete_house" type="button" data-id="<?php echo $row['id'] ?>">Delete</button>
+											<!-- <button class="btn btn-sm btn-primary edit_house" type="button" data-id="<?php echo $row['id'] ?>" data-house_no="<?php echo $row['zone_name'] ?>" data-description="<?php echo $row['market_name'] ?>" data-category_id="<?php echo $row['shop_name'] ?>" data-price="<?php echo $row['zone_name'] ?>">Edit</button> -->
+										<!--<button class="btn btn-sm btn-danger delete_house" type="button" data-id="<?php echo $row['id'] ?>">Delete</button> -->
 										</td>
 									</tr>
 								<?php endwhile; ?>
