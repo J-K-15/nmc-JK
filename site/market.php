@@ -105,7 +105,7 @@
             <a href="index.php" title="" class="active">Home</a>
         </li>
         <li class="expanded">
-            <a href="content/about-digital-india.html" title="">About </a>
+            <a href="./about.php" title="">About </a>
             <!-- <ul>
                 <li>
                     <a href="content/introduction.html">Introduction</a>
@@ -131,19 +131,15 @@
                 </ul>
             </li>
         </li> -->
-            <li class="last expanded">
+                       <!-- <li class="last expanded">
                 <a href="./feedback/index.html" title="">Feedback</a>
-                <!-- <ul>
-                    <li>
-                        <a href="./feedback/index.html" title="">Leave Feedback</a>
-                    </li>
-                </ul> -->
-            </li> 
+
+            </li>  -->
             <li class="last expanded">
                 <a href="./account/select/select.php" title="">Login/Signup</a>
                 <ul>
                     <li>
-                        <a href="./account/login/admin_login/admin.html" target="_self" title="">Admin Login</a>
+                        <a href="./admin-dashboard/" target="_self" title="">Admin Login</a>
                     </li>
                     <li>
                         <a href="./account/login/index.html" title="">Customer Login</a>

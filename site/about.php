@@ -173,6 +173,7 @@
         </li> -->
             <!-- <li class="last expanded">
                 <a href="./feedback/index.html" title="">Feedback</a>
+
             </li>  -->
             <li class="last expanded">
                 <a href="./account/select/select.php" title="">Login/Signup</a>
@@ -197,496 +198,47 @@
   </div>
             </div>
             </div>
-</header>    
-<div id="contentWrapper">
-        <div class="pageContent">
-            
-                    <div class="container">
-                                            <div class="tabs tabs-edit"></div>
-                                                                                                                                            </div>
-                      <div class="region region-content">
-    <div id="block-system-main" class="block block-system">
-                     <div class="content">
-    <div class="panel-display panel-1col clearfix" >
-  <div class="panel-panel panel-col">
-    <div><div class="panel-pane pane-block pane-art-revolution-art-revolution-block-1"  >
-  
-      
-  
-  <div class="pane-content">
-    <div  id="art-revolution" class="slider-revolution tp-banner-container tp-simpleresponsive" style="max-height: 500px;">
-<div class="tp-banner" style="display:none; max-height:500px; height:500px;">
-<ul>
-<li  data-target="_self" data-transition="fade" data-masterspeed="1500" data-slotamount="7">
-	<img src="../modules/writereaddata/files/slider1.jpg" alt="Technology"/></li><li  data-target="_self" data-transition="fade" data-masterspeed="1500" data-slotamount="7">
-	<img src="../modules/writereaddata/files/slider2.jpg" alt="Technology2"/></li><li  data-target="_self" data-transition="fade" data-masterspeed="1500" data-slotamount="7">
-	<img src="../modules/writereaddata/files/slider3.jpg" alt="Technology3"/></li><li  data-target="_self" data-transition="fade" data-masterspeed="1500" data-slotamount="7">
-	<img src="../modules/writereaddata/files/slider4.jpg" alt="Internet"/></li><li  data-target="_self" data-transition="fade" data-masterspeed="1500" data-slotamount="7">
-	<img src="../modules/writereaddata/files/Banner-4.png" alt="Aatmnirbhr"/></li><li  data-target="_self" data-transition="fade" data-masterspeed="1500" data-slotamount="7">
-	<!-- <img src="../modules/writereaddata/files/1_0.png" alt="AKAM-Hindi"/></li><li  data-target="_self" data-transition="fade" data-masterspeed="1500" data-slotamount="7">
-	<img src="../modules/writereaddata/files/4_2.png" alt="azaadi-1"/></li><li  data-link="https://apps.mgov.gov.in/Developer/deptreg_form" data-target="_blank" data-transition="fade" data-masterspeed="1500" data-slotamount="7">
-	<img src="../modules/writereaddata/files/Old-DI-Website-Banner-3.jpg" alt="mobile seva"/></li><li  data-target="_self" data-transition="fade" data-masterspeed="1500" data-slotamount="7">
-	<img src="../modules/writereaddata/files/Old-DI-Website-Banner-2.jpg" alt="ashwini"/></li><li  data-target="_self" data-transition="fade" data-masterspeed="1500" data-slotamount="7">
-	<img src="../modules/writereaddata/files/Old-DI-Website-Banner-1.jpg" alt="rajeev chndraskhr"/></li></ul> -->
-<div class="tp-bannertimer tp-bottom"></div>
-</div>
-</div>
-  </div>
-
-  
-  </div>
-<div class="panel-separator"></div><div id="block-bean-we-make-it-with-love-index" class="block block-bean">
-                     <div class="content">
-    <div class="entity entity-bean bean-shortcode clearfix" about="/block/we-make-it-with-love---index" typeof="">
-
-  <div class="content">
-    <div class="field field-name-field-bean-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><div  style = 'padding-top: 0px; padding-bottom: 0px; background-image: url("https://digitalindia.gov.in/writereaddata/files/bg2_0_0.jpg");'><div id="block-views-blog-break-news" class="block block-views">
-                     <div class="content">
-    <div class="view view-blog view-id-blog view-display-id-break_news view-dom-id-6c843230ddeaead11943684b816cfbd1">
-        
-  
-  
-      <div class="view-content">
-      <div class="break-news shape">
-    <span class="lbl">What's New</span>
-    <div class="break-news-slider">
-                <div class="views-row views-row-1 views-row-odd views-row-first">
-                
-            <a href="#" target="_blank"> आपत्कालीन परिस्थितीकरिता झोननिहाय २४ तास कार्यरत नियंत्रण कक्ष</a>            </div>
-                <div class="views-row views-row-2 views-row-even">
-                
-            <a href="#" target="_blank"> नागपूर महानगरपालिका सार्वत्रिक निवडणूक २०२२</a>            </div>
-                <div class="views-row views-row-3 views-row-odd">
-                
-            <a href="#" target="_blank">समाज कल्याण विभागामार्फतदिव्यांग योजने करीता लिंक   .  </a>            </div>
-                <div class="views-row views-row-4 views-row-even">
-                
-                महानगरपालिका क्षेत्रात श्री गणेश विसर्जनाकरिता
-निर्माण करण्यात येणाऱ्या कृत्रिम तलावांच्या स्थळांची यादी               </div>
-            </div>
-</div>    </div>
-  
-  
-  
-  
-  
-  
-</div></div>
-</div>
-</div>
-<div  class = 'section'>
-<div  class = 'container'>
-        <div class="heading centered">
-        <i class="tbl top-bord main-bg"></i>
-        <div class="head-2">
-            <h3 class="title-heading "></h3>
-            <h4 class="main-color bold">
-                <b class="lft fa fa-circle-o"></b>
-                                    ABOUT SMART RENT COLLECTION SYSTEM                                <b class="rit fa fa-circle-o"></b>
-            </h4>
-        </div>
-        <div class="sub-heading">
-</div>
-    </div>
-    
-<p class="heading-desc centered">Market Management System is a NMC nagpur initiative aims to replace traditional pen paper leased shop rent collection method with new digitalized automated system.
+</header>  
+<!-- header end -->
+<pre>
+<br>
+<h2 style="color: #337ab7; text-align: center;">Welcome To Nagpur Municipal Corporation</h2>
+<p style="font-size:17px;font-family: 'Open Sans', sans-serif;text-align:justify;margin-left:2%; margin-right:2%;">
+The Municipal Council for Nagpur was established in 1864. At that time, the area under the 
+jurisdiction of the Nagpur Municipal Council was 15.5 sq. km and the population was 82,000.
 </p>
-<div  class = 'row'>
-<div  class = 'zindx-1 col-md-3'>
-    <a  href="content/vision-and-vision-areas.html" target="_self">
-<div  class = ' wow fadeInLeft' data-wow-delay = '200ms' data-wow-duration = '500ms'><div class="icons-style-2 t-right">										<i class="icons icons-basic-alarm"></i>										<span class="tri-line"></span>										<h4 class="bold uppercase heading">VISION AND VISION AREAS</h4>										<p>Some Text Here [...]</p>									</div></div>
-</a>
 
-    <a  href="content/programme-management.html" target="_self">
-<div  class = ' wow fadeInLeft' data-wow-delay = '400ms' data-wow-duration = '500ms'><div class="icons-style-2 t-right">										<i class="icons icons-basic-lock"></i>										<span class="tri-line bottom-tri"></span>										<h4 class="bold uppercase heading">PROGRAMME MANAGEMENT</h4>										<p>Some Text Here [...]</p>									</div></div>
-</a>
+<p style="font-size:17px;font-family: 'Open Sans', sans-serif; text-align:justify; margin-left:2%; margin-right:2%; ">
+The duties entrusted to the Nagpur Municipal Council were to maintain cleanliness and arrange
+ for street lights and water supply with government assistance. In 1922, the Central Provinces
+  & Berar Municipalities Act was framed for the proper functioning of the Municipal Council.
+</p>
 
-</div>
-<div  class = 't-center zindx-0 col-md-6'>
+<p style="font-size:17px;font-family: 'Open Sans', sans-serif;text-align:justify; margin-left:2%; margin-right:2%;">
+On 22nd January 1950, CP & Berar Act No. 2 was published in the Madhya Pradesh Gazette which
+ is known as the City of Nagpur Corporation Act, 1948 (CNC Act). The Municipal Corporation 
+ came into existence in March 1951. The first development plan of the city was prepared in 
+ 1953. In the year 1956, under the state reconstitution, the Berar Province merged into the
+  Maharashtra State with Mumbai being recognised as its capital; in 1960, Nagpur was declared
+   as the second capital of the state.
+</p>
+   <p style="font-size:17px;font-family: 'Open Sans', sans-serif;text-align:justify;font-family: 'Open Sans', sans-serif; margin-left:2%; margin-right:2% ;">
+As per the CNC Act, 1948, the key responsibility for providing Nagpur’s citizens basic 
+urban services lies with the Nagpur Municipal Corporation. These services include water
+ supply, sewerage, waste management, slum improvement, land use planning, construction and 
+ maintenance of internal roads, street lighting, maintenance of parks and gardens, 
+ providing primary health and education facilities, etc. NMC co-ordinates with various 
+ other government organizations like NIT, MHADA, MSRTC, the Traffic Police, MPCB, etc. 
+ for delivering these basic urban services.
+</p>
+<br>
 
-<div  class = ' wow fadeInUp' data-wow-delay = '200ms'>
-            <img  src="../modules/writereaddata/files/Desktop-Image-1_0.png" alt="" title=""/>
-    
-    </div>
-
-</div>
-<div  class = 'zindx-1 col-md-3'>
-    <a  href="content/programme-pillars.html" target="_self">
-<div  class = ' wow fadeInRight' data-wow-delay = '800ms' data-wow-duration = '500ms'><div class="icons-style-2">										<i class="icons icons-basic-pencil-ruler"></i>										<span class="tri-line left"></span>										<h4 class="bold uppercase heading">PROGRAMME PILLARS</h4>										<p>Some Text Here [...]</p>									</div></div>
-</a>
-
-    <a  href="content/approach-and-methodology.html" target="_self">
-<div  class = ' wow fadeInRight' data-wow-delay = '1000ms' data-wow-duration = '500ms'><div class="icons-style-2">										<i class="icons icons-basic-home"></i>										<span class="tri-line left bottom-tri" style=""></span>										<h4 class="bold uppercase heading" style="font-size:15px;">APPROACH AND METHODOLOGY</h4>										<p>Some Text Here [...] </p></div></div>
-</a>
-
-</div>
-</div>
-</div>
-</div>
- </div></div></div>  </div>
-</div>
-</div>
-</div>
-<div class="panel-separator"></div><div id="block-bean-superfine-is-designed-specially-" class="block block-bean">
-                     <div class="content">
-    <div class="entity entity-bean bean-shortcode clearfix" about="/block/superfine-is-designed-specially-" typeof="">
-
-<div class="content">
-    <div class="field field-name-field-bean-body field-type-text-long field-label-hidden">
-        <div class="field-items">
-            <div class="field-item even">
-                <div  style = 'padding-top: 60px; padding-bottom: 60px; background-image: url("../modules/writereaddata/files/bg-03.jpg");' class = 'section parallax'>
-                    <div  class = 'infocus-heading'>
-                        <div class="heading centered">
-                            <i class="tbl top-bord main-bg"></i>
-                            <div class="head-2">
-                                <h3 class="title-heading "></h3>
-                                <h4 class="main-color bold"><b class="lft fa fa-circle-o"></b>FEATURES<b class="rit fa fa-circle-o"></b></h4>
-                            </div>
-                            <div class="sub-heading"></div>
-                        </div>
-                    </div>
-
-                    <div  class = 'container'>
-                        <div  class = 'col-xs-2 col-sm-2 col-md-12'>
-                            <div  data-slider-count="6" data-scroll-amount="6" data-slider-speed="300" data-slider-infinite="1" data-slider-dots="0" data-slider-arrows="1" class="horizontal-slider shortcode-slick">
-                                <a  href="#" class="infocuslink" target="_blank">
-                                    <div  style = ' text-align:center;'>
-                                        <img class="infocusimg" src="../modules/writereaddata/files/dashboard.png" alt="Dashboard" title="Dashboard"/>
-    
-                                    </div>
-
-                                    <div  class = 'infocustitle text-center'>
-                                        <div class="heading sub-head">
-                                            <h5 class="head  " ><span class="main-color">Dashboard</span>&nbsp;                         </h5>                            <span class="divider gray mb-20 mt-25 center"></span>
-                                        </div>
-    
-                                    </div>
-
-                                </a>
-
-                                <a  href="#" class="infocuslink" target="_self">
-                                    <img class="infocusimg" src="../modules/writereaddata/files/chatbot.png" alt="Chatbot" title="Chatbot"/>
-                                    <div  class = 'text-center'>
-                                        <div class="heading sub-head">
-                                            <h5 class="head  " >            <span class="main-color">Chatbot</span>&nbsp;                         </h5>                            <span class="divider gray mb-20 mt-25 center"></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a  href="#" class="infocuslink" target="_self">
-                                    <img class="infocusimg" src="../modules/writereaddata/files/recurring-payment.png" alt="Rent Pay" title="Rent Pay"/>
-                                    <div  class = 'text-center'>
-                                        <div class="heading sub-head">
-                                            <h5 class="head  " >            <span class="main-color">Rent Pay</span>&nbsp;                         </h5>                            <span class="divider gray mb-20 mt-25 center"></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a  href="#" class="infocuslink" target="_self">
-                                    <img class="infocusimg" src="../modules/writereaddata/files/invoice.png" alt="Invoice" title="Invoice"/>
-                                    <div  class = 'text-center'>
-                                        <div class="heading sub-head">
-                                            <h5 class="head  " >            <span class="main-color">Invoice Generation</span>&nbsp;                         </h5>                            <span class="divider gray mb-20 mt-25 center"></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a  href="#" class="infocuslink" target="_self">
-                                    <img class="infocusimg" src="../modules/writereaddata/files/bill.png" alt="Recipt" title="Recipt"/>
-                                    <div  class = 'text-center'>
-                                        <div class="heading sub-head">
-                                            <h5 class="head  " >            <span class="main-color">e-Recipt</span>&nbsp;                         </h5>                            <span class="divider gray mb-20 mt-25 center"></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a  href="#" class="infocuslink" target="_self">
-                                    <img class="infocusimg" src="../modules/writereaddata/files/market.png" alt="market" title="market"/>
-                                    <div  class = 'text-center'>
-                                        <div class="heading sub-head">
-                                            <h5 class="head  " >            <span class="main-color">Market info</span>&nbsp;                         </h5>                            <span class="divider gray mb-20 mt-25 center"></span>
-                                        </div>
-                                    </div>
-                                </a>
+<h2 style="text-align: center; background-color:#F0FFFF;">My City, Clean City, My Responsibility
+    <br>
+</pre>
 
 
-
-
-
-
-
-
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>  
-</div>
-</div>
-</div>
-</div>
-<div class="panel-separator"></div><div id="block-bean-template-feature-index" class="block block-bean">
-                     <div class="content">
-    <div class="entity entity-bean bean-shortcode clearfix" about="/block/template-feature---index" typeof="">
-
-  <div class="content">
-    <div class="field field-name-field-bean-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><div  class = 'section'>
-        <div class="heading centered">
-        <i class="tbl top-bord main-bg"></i>
-        <div class="head-2">
-            <h3 class="title-heading "></h3>
-            <h4 class="main-color bold">
-                <b class="lft fa fa-circle-o"></b>
-                                    Announcement's                                <b class="rit fa fa-circle-o"></b>
-            </h4>
-        </div>
-        <div class="sub-heading">
-</div>
-    </div>
-    
-<div  class = 'container'>
-<p class="heading-desc centered">All the latest news and Announcements on Market dapartment.</p>
-<div  class = 'row'>
-<div  class = 'fx feature-img wow fadeInUp col-md-3' data-wow-delay = '200ms' data-wow-duration = '500ms'>
-<figure  class = 'shape'>
-
-        <img  src="../modules/writereaddata/files/05.jpg" alt="feature" title="feature"/>
-    
-    
-</figure>
-<div class="feature-details-hidden">									<h5 class="bold feature-head main-color">All Announcements</h5>									<a class="cws-button btn btn-md shape btn-turquoise with-icon new-angle" href="#">View All</a>								</div>
-</div>
-<div  class = 'fx feature-img wow fadeInUp col-md-3' data-wow-delay = '400ms' data-wow-duration = '500ms'>
-<div  class = 'newstrackfront-title-length'><div class="view view-portfolio-grid view-id-portfolio_grid view-display-id-page_2 view-dom-id-7a65322e4df90233b7d4e45035fc37c8">
-        
-  
-  
-      <div class="view-content">
-      <table class="views-view-grid cols-1">
-  
-  <tbody>
-          <tr class="row-1 row-first row-last">
-                  <td class="col-1 col-first">
-                <div class="img-holder">
-       <div class="img-over">
-                   </div>
-         
-        
-        <figure class="shape new-angle">
-       <img src="../modules/writereaddata/files/project/market.jpg" alt="#">
-        </figure>
-       
-    </div>
-    <div class="name-holder">
-        <h4><a href="#" target="_blank">Market News/ Article</a></h4>
-        <h5><a href="#" class="home-newstrack-title">nmc-nagpur</a></h5>
-    </div>
-          </td>
-              </tr>
-      </tbody>
-</table>
-    </div>
-  
-  
-  
-  
-  
-  
-</div></div>
-</div>
-<div  class = 'fx feature-img wow fadeInUp col-md-3' data-wow-delay = '600ms' data-wow-duration = '500ms'>
-<div  class = 'newstrackfront-title-length'><div class="view view-portfolio-grid view-id-portfolio_grid view-display-id-page_3 view-dom-id-f8136b4f715f427f24675bcbf66489eb">
-        
-  
-  
-      <div class="view-content">
-      <table class="views-view-grid cols-1">
-  
-  <tbody>
-          <tr class="row-1 row-first row-last">
-                  <td class="col-1 col-first">
-                <div class="img-holder">
-       <div class="img-over">
-                   </div>
-         
-        
-        <figure class="shape new-angle">
-       <img src="../modules/writereaddata/files/project/kalamna.jpg" alt="#">
-        </figure>
-       
-    </div>
-    <div class="name-holder">
-        <h4><a href="#" target="_blank">Market News/Article</a></h4>
-        <h5><a href="#" class="home-newstrack-title">nmc-nagpur</a></h5>
-    </div>
-          </td>
-              </tr>
-      </tbody>
-</table>
-    </div>
-  
-  
-  
-  
-  
-  
-</div></div>
-</div>
-<div  class = 'fx feature-img wow fadeInUp col-md-3' data-wow-delay = '800ms' data-wow-duration = '500ms'>
-<div  class = 'newstrackfront-title-length'><div class="view view-portfolio-grid view-id-portfolio_grid view-display-id-page_4 view-dom-id-f8f248cfb32df609366c2d7072c23e54">
-        
-  
-  
-      <div class="view-content">
-      <table class="views-view-grid cols-1">
-  
-  <tbody>
-          <tr class="row-1 row-first row-last">
-                  <td class="col-1 col-first">
-                <div class="img-holder">
-       <div class="img-over">
-                   </div>
-         
-        
-        <figure class="shape new-angle">
-       <img src="../modules/writereaddata/files/project/vegies.jpg" alt="#">
-        </figure>
-       
-    </div>
-    <div class="name-holder">
-        <h4><a href="#" target="_blank">Market News/Article</a></h4>
-        <h5><a href="#" class="home-newstrack-title">nmc-nagpur</a></h5>
-    </div>
-          </td>
-              </tr>
-      </tbody>
-</table>
-    </div>
-  
-  
-  
-  
-  
-  
-</div></div>
-</div>
-</div>
-</div>
-</div>
- </div></div></div>  </div>
-</div>
-</div>
-</div>
-<div class="panel-separator"></div>
-<div id="block-bean-our-skill-matrix-index" class="block block-bean">
-    <div class="content">
-        <div class="entity entity-bean bean-shortcode clearfix" about="/block/our-skill-matrix---index" typeof="">
-            <div class="content">
-                <div class="field field-name-field-bean-body field-type-text-long field-label-hidden">
-                    <div class="field-items">
-                       </div></div>  </div>
-</div>
-</div>
-</div>
-<div class="panel-separator"></div><div id="block-bean-testimonials-index" class="block block-bean">
-                     <div class="content">
-    <div class="entity entity-bean bean-shortcode clearfix" about="/block/testimonials---index" typeof="">
-
-  <div class="content">
-    <div class="field field-name-field-bean-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><div  class = 'section parallax' style = 'background-image: url("../site/img/announce_backg.png");'>
-<!--<div class="heading full-heading alter-gry" style="background-image:url('writereaddata/files/bg2_0.jpg')">-->	<div class="heading full-heading alter-gry" style="background-color:#fff;">			<h3 class="inner-head">Testi<span class="main-color heavy-font">monials</span></h3>						<!--<h5 class="small-heading"><span class="main-color">Checkout </span>our features</h5>	-->				</div>
-<div  class = 'container'>
-<div  data-slider-count="3" data-scroll-amount="1" data-slider-speed="300" data-slider-infinite="1" data-slider-dots="1" data-slider-arrows="0" class="horizontal-slider shortcode-slick">
-        
-<div  class = 'testimonials testimonials-4'>
-<div   class = 'testimonials-bg white shape lg new-angle video-box youtube' style = 'padding:0;overflow:hidden;height:200px;'>
-    <iframe src="https://www.youtube.com/embed/IYt88lLCSdQ?showinfo=0&amp;wmode=opaque"   frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>
-</div>
-<div  class = 'testimonials testimonials-4'>
-<div   class = 'testimonials-bg white shape lg new-angle video-box youtube' style = 'padding:0;overflow:hidden;height:200px;'>
-    <iframe src="https://www.youtube.com/embed/qi36ea_xX1I?showinfo=0&amp;wmode=opaque" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>
-</div>
-<div  class = 'testimonials testimonials-4'>
-<div   class = 'testimonials-bg white shape lg new-angle video-box youtube' style = 'padding:0;overflow:hidden;height:200px;'>
-    <iframe src="https://www.youtube.com/embed/cs6rubuNsio?showinfo=0&amp;wmode=opaque"   frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>
-</div>
-<div  class = 'testimonials testimonials-4'>
-<div   class = 'testimonials-bg white shape lg new-angle video-box youtube' style = 'padding:0;overflow:hidden;height:200px;'>
-    <iframe src="https://www.youtube.com/embed/tOFMVA-qHOc?showinfo=0&amp;wmode=opaque"   frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>
-</div>
-<div  class = 'testimonials testimonials-4'>
-<div   class = 'testimonials-bg white shape lg new-angle video-box youtube' style = 'padding:0;overflow:hidden;height:200px;'>
-    <iframe src="https://www.youtube.com/embed/mR2ScFy_obQ?showinfo=0&amp;wmode=opaque"   frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>
-</div>
-</div></div></div></div></div></div></div>
-</div>
-</div>
-</div>
-<div class="panel-separator"></div><div id="block-bean-logo-partner-slick-index" class="block block-bean">
-                     <div class="content">
-    <div class="entity entity-bean bean-shortcode clearfix" about="/block/logo-partner-slick---index" typeof="">
-
-  <div class="content">
-    <div class="field field-name-field-bean-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><div  class = 'clearfix'>
-</div>
-<div  style = 'padding-bottom: 10px; padding-top: 10px;' id = 'clientsDiv' class = 'container'>
-        <div  class="clients horizontal-slider shortcode-slick" data-slider-count="6" data-scroll-amount="6" data-slider-speed="300" data-slider-infinite="1" data-slider-dots="0" data-slider-arrows="1">
-        
-
-
-    <a  href="https://www.mygov.in/" target="_blank">
-        <img  src="../modules/writereaddata/files/3_1.png" alt="" title=""/>
-    </a>
-    <a  href="https://www.mygov.in/" target="_blank">
-        <img  src="../modules/writereaddata/files/3_1.png" alt="" title=""/>
-    </a>
-    <a  href="https://www.mygov.in/" target="_blank">
-        <img  src="../modules/writereaddata/files/3_1.png" alt="" title=""/>
-    </a>
-    <a  href="https://www.mygov.in/" target="_blank">
-        <img  src="../modules/writereaddata/files/3_1.png" alt="" title=""/>
-    </a>
-    <a  href="https://www.mygov.in/" target="_blank">
-        <img  src="../modules/writereaddata/files/3_1.png" alt="" title=""/>
-    </a>
-    <a  href="https://www.mygov.in/" target="_blank">
-        <img  src="../modules/writereaddata/files/3_1.png" alt="" title=""/>
-    </a>
-    </div>
-</div>
- </div></div></div>  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="block-block-29" class="block block-block">
-                     <div class="content">
-    
-</div>
-</div>
-<div id="block-block-40" class="block block-block">
-                     <div class="content">
-    <div class="float-sm">
-<div class="fl-fl float-fb"><img src="writereaddata/files/center.png" style="padding:3% ;" /><a href="./market.php" target="_blank"> Show Markets</a></div>
-<div class="fl-fl float-tw"><img src="writereaddata/files/state1.png" style="padding:3% ;" /><a href="./account/login/index.html" target="_blank"> Pay Rent</a></div>
-<div class="fl-fl float-gp"><img src="writereaddata/files/state2.png" style="padding:3% ;" /> <a href="./account/select/select.php" target="_blank"> Dashboard</a></div>
-</div>
-</div>
-</div>
-  </div>
-                            </div>
-        <!-- Footer start -->
+<!-- footer start -->
 <footer  id = 'footWrapper' class = 'ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle ui-sortable-handle footer-4 ui-sortable-handle'>
     <div  class = 'footer-middle'>
         <div  class = 'container'>
