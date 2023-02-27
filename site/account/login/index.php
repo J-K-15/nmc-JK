@@ -4,7 +4,7 @@ session_start();
 
 // Check if the user is already logged in, if yes then redirect him to customer dashboard
 if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
-  header("location: /final1/site/customer-dashboard/public/index.php");
+  header("location: /site/customer-dashboard/public/index.php");
   exit;
 }
 // Include config file
@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               $_SESSION["password"] = $hashed_password;
 
               // Redirect user to customer dashboard
-              header("location: /final1/site/customer-dashboard/public/index.php");
+              header("location: /site/customer-dashboard/public/index.php");
             } else 
             {
               // Password is not valid, display a generic error message
@@ -834,7 +834,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div> -->
           <br>
 
-          <input type="submit" value="Login" name="login" class="btn solid">
+          <input type="submit" value="Login" name="login" class="btn solid" >
           <center>
             <div class="">
               <button onclick="history.back()">Go Back</button>
@@ -926,7 +926,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 //        //ab jab bhi login karega user, if user name and password is correct the user can login
 //        //session create hoga and uska aadhar number session me jake store hoga
 //        //person will go to afterlogin.php page
-//           header('location:/final1/site/customer-dashboard/public/index.php'); //if login successfull direct user to afterlogin.html
+//           header('location:/site/customer-dashboard/public/index.php'); //if login successfull direct user to afterlogin.html
 //        //or search on google meta tag to redirect
 //        //if error in header location is not working
 //     }

@@ -11,11 +11,11 @@ else
 {
   if($_SESSION["loggedin"]== true)
   {
-
+    header("Refresh");
   }
   else
   {
-    header('Location:http://localhost/final1/site/account/login/index.php');
+    header('Location:/site/account/login/index.php');
   }
 }
 ?>
